@@ -22,7 +22,7 @@ console.log(jsUser["email"])
 console.log(jsUser.name)
 console.log (jsUser[mySym])
 
-jsUser.greeting= function () {
+jsUser.greeting = function () {
     console.log("hello js user ");
     
 }
