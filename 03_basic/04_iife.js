@@ -1,7 +1,11 @@
 // Immediately invoked function Expression (IIFE)
 
 
-function chai(){
+(function chai(){
     console.log('DB CONNECTED');
-}
-chai()
+})();
+
+((email) =>{
+    console.log(`DB CONNECTED TWO ${email}`);
+})('suraj@gmail.com')
+
