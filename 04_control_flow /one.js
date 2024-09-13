@@ -9,6 +9,8 @@ if (temperayure === 41) {
 }
 console.log("execute");
 
+// console.log ("<,>, <= , =>, ==, != , === , !==")
+
 //scope in js 
 const score = 200
 if (score > 100) {
@@ -23,7 +25,7 @@ const balance = 1000
 if (balance > 500) {
     console.log("less than 500");
 
-} else if (balance < 900) {
+} else if (balance < 900) { // esle if = multiple checked 
     console.log();
 }
 else {
